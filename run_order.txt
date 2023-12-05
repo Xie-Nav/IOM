@@ -1,0 +1,6 @@
+训练命令
+python main.py --title IOM --model IOM --workers 12 --gpu-ids 0 1 --max-ep 3000000 --log-dir runs/RL_train --save-model-dir trained_models/RL_train --pretrained-trans trained_models/pretrain/checkpoint0004.pth --data-dir /opt/data/private/datasets/AI2Thor_offline_data_2.0.2/
+
+
+测试命令
+python full_eval.py --title IOM --model IOM --results-json eval_results/IOM.json --gpu-ids 0 --log-dir runs/RL_train --save-model-dir trained_models/RL --data-dir /opt/data/private/datasets/AI2Thor_offline_data_2.0.2/
