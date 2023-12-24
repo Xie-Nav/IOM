@@ -18,4 +18,9 @@
 You can see the results of each test in 'eval_results/log.txt', and the iteration process of the model in '/result_epoch.txt'.
 You can download the model weights from this [address](https://drive.google.com/drive/folders/1HoUpFT3r6Q1egigLeXu3BOtYsuMr0ctf?usp=sharing).
 
-
+## Acknowledgments
+This project is based on the following codebases.
+-[DOA](https://github.com/Rh-Dang/DOA)
+-[ECCV-VN](https://github.com/xiaobaishu0097/ECCV-VN)
+-[VTNet](https://github.com/xiaobaishu0097/ICLR_VTNet)
+If you find this project helpful, Please also cite the codebases above. Thanks.
